@@ -13,8 +13,15 @@ public class Ratespiel
         antwortVonNummer(0);
         System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
         antwortVonNummer(1);
-        //etc. weitere Antworten/Fragen eibauen
+        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
+        antwortVonNummer(2);
+        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
+        antwortVonNummer(3);
+        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
+        antwortVonNummer(4);
         System.out.println("\n Danke fürs Mitspielen");
+
+        //etc. weitere Antworten/Fragen eibauen
     }
     
     private static String antwort( int antwortNummer){ //antwortNummer 0 bis 5 -> 6 Antworten sind im "Spiel"
