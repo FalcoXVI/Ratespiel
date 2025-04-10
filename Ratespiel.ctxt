@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Ratespiel
+comment0.text=\r\n\ Klasse\ Ratespiel\r\n\ \r\n\ @author\ (Nikola)\ \r\n\ @version\ (2025-03-04)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=antwortNummer
+comment2.target=java.lang.String\ antwort(int)
+comment3.params=antwortNummer
+comment3.target=java.lang.String\ frage(int)
+comment4.params=
+comment4.target=void\ fragenUndWarten()
+comment5.params=
+comment5.target=void\ fragenUndAntworten()
+comment6.params=
+comment6.target=void\ antworten()
+comment7.params=
+comment7.target=void\ Fragen()
+comment8.params=antwortNummer
+comment8.target=void\ antwortVonNummer(int)
+numComments=9
