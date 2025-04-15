@@ -10,91 +10,32 @@ public class Ratespiel
 
     public static void main(String[] args) {
         System.out.println("Wir spielen ein Ratespiel!\n");
-        antwortVonNummer(0);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(1);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(2);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(3);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(4);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(5);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(6);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(7);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(8);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(9);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(10);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(11);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(12);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(13);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(14);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(15);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(16);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(17);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(18);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(19);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(20);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(21);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(22);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(23);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(24);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(25);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(26);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(27);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(28);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(29);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(30);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(1);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(32);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(33);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(34);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(35);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(36);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(37);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(38);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
-        antwortVonNummer(39);
-        System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");
+        int lenght = 40; // the number should be get dynamically later
+        for(int i = 0; i<length; i++){
+            antwortVonNummer(i);
+            if(i != lenght - 1){
+                System.out.println("\n Hier Kommt die nächste Antwort/Frage: ");                            
+            }
+        } 
 
 
         System.out.println("\n Danke fürs Mitspielen");
 
         //etc. weitere Antworten/Fragen eibauen
+
+
+        /*  SPOILER BARRIER
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        */
     }
     
     private static String antwort( int antwortNummer){ //antwortNummer 0 bis 5 -> 6 Antworten sind im "Spiel"
